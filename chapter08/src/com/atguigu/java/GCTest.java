@@ -16,6 +16,7 @@ import java.util.List;
 public class GCTest {
     public static void main(String[] args) {
         int i = 0;
+        System.out.println("i = " + i);
 
         try {
             List<String> list = new ArrayList<>();
